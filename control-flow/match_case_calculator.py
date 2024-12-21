@@ -20,7 +20,4 @@ match operation:
         print (f"The result is {difference}.")    
          
     case "*":
-        print (f"The result is {product}.")   
-
-    case _:
-        print( f'Invalid Operation')      
+        print (f"The result is {product}.") 
