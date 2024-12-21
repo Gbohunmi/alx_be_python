@@ -5,18 +5,18 @@ operation = str(input("Choose the operation (+, -, *, /):"))
 match operation:
     case "/":
         if num2 == 0:
-            print("Cannot divide by zero.")
+            print(f"Cannot divide by zero.")
         else:
-            print ("The result is", num1/num2)
+            print (f"The result is", num1/num2)
 
     case "+":
-        print ("The result is", num1+num2)
+        print (f"The result is", num1+num2)
 
     case "-":
-        print ("The result is", num1-num2)    
+        print (f"The result is", num1-num2)    
          
     case "*":
-        print ("The result is", num1*num2)   
+        print (f"The result is", num1*num2)   
 
     case _:
-        print('Invalid Operation')      
+        print(f'Invalid Operation')      
