@@ -11,13 +11,15 @@ match operation:
         if num2 == 0:
             print( "Cannot divide by zero.")
         else:
-            print ( f"The result is {division}." )
+            result = division
 
     case "+":
-        print ( f"The result is {addition}." )
+        result = addition
 
     case "-":
-        print ( f"The result is {difference}." )    
+        result = difference
          
     case "*":
-        print ( f"The result is {product}." ) 
+        result = product
+
+print ( f"The result is {result}." )        
