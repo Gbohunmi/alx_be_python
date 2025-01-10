@@ -23,3 +23,6 @@ match temperature_measurment:
     case 'C':
         convert_to_fahrenheit(temperature)
         print(str(temperature)+'°C is', str(fahrenheit)+'°F')
+
+    case _:
+        print("Invalid temperature. Please enter a numeric value.")    
