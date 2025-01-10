@@ -3,6 +3,8 @@ def perform_operation(num1, num2, operation):
     case "divide":
         if num2 == 0:
             print( "Cannot divide by zero.")
+        elif num2 == 1:
+            return num1    
         else:
             return num1 / num2
     case "add":
