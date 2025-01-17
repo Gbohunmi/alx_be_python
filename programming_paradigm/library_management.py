@@ -35,11 +35,3 @@ class Library:
             for book in available_books:
                 print(f"{book.title} by {book.author}")
     
-
-
-library = Library()
-library.add_book(Book("Brave New World", "Aldous Huxley"))
-library.add_book(Book("1984", "George Orwell"))
-# Initial list of available books
-print("Available books after setup:")
-library.list_available_books()
