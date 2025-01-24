@@ -31,7 +31,7 @@ class Library:
                 print(f"PrintBook: {book.title} by {book.author}, Page Count: {book.page_count}")
             
             elif isinstance(book, EBook):
-                print(f"Ebook: {book.title} by {book.author}, File Size: {book.file_size}")
+                print(f"Ebook: {book.title} by {book.author}, File Size: {book.file_size}KB")
             
             else:
                 print(f"Book: {book.title} by {book.author}")
